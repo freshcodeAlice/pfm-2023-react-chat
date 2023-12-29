@@ -2,5 +2,20 @@
     background-color:  bisque;
     align-self: stretch;
     flex-grow: 5;
-    
+    overflow-y: scroll;
+}
+
+.chat-item {
+    list-style: none;
+    flex-direction: column;
+    width: 25%;
+    background-color: beige;
+    padding: 5px;
+    border: 1px solid salmon;
+    margin: 10px;
+}
+
+.author {
+    color: grey;
+    font-size: 0.8em;
 }
